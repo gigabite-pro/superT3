@@ -1,7 +1,7 @@
 # superT3 - the ultimate version of tic-tac-toe
 superT3 is the ultimate tic-tac-toe, or to be particular, a nested tic-tac-toe game. Just like the original game, it also has a 3x3 grid of empty squares but with a little twist - all the 9 squares have their own 3x3 grid nested inside them.
 
-###Rules
+### Rules
 - To win the game, you have to win three of the larger squares in a row, and to win a large square, you have to win three in a row in the smaller grid inside it. 
 - Say X goes first and marks the bottom right square on the small grid present in the upper left square on the large grid. Now, just like in normal tic-tac-toe, O gets to go. But O can’t just go anywhere. The smaller grid O must play in is determined by X’s move. So since X went in the bottom right corner within his small grid, O must go in the bottom right corner of the large grid. So O goes, anywhere in this small grid he wants to.
 - If the smaller grid results in a tie, both X and O can use it to complete the large grid and win the game.
